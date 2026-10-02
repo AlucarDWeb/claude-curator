@@ -7,5 +7,6 @@
     "url": "https://github.com/AlucarDWeb"
   },
   "repository": "https://github.com/AlucarDWeb/claude-curator",
+  "license": "MIT",
   "keywords": ["skills", "memory", "cleanup", "curator"]
 }

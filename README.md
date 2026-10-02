@@ -56,3 +56,7 @@ Everything runs on your machine with the Python standard library. Nothing is sen
 ```
 
 Your ledger and archive stay in `~/.claude/curator/`. Delete that folder if you want them gone too.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
