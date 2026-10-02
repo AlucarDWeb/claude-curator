@@ -1,0 +1,17 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-curator",
+  "description": "Keep your Claude Code skills and memories tidy.",
+  "owner": {
+    "name": "Ferdinando Furci",
+    "url": "https://github.com/AlucarDWeb"
+  },
+  "plugins": [
+    {
+      "name": "curator",
+      "description": "Report unused skills and stale memories, then archive the ones you pick.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

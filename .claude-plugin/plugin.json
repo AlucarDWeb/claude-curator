@@ -1,0 +1,11 @@
+{
+  "name": "curator",
+  "version": "0.1.0",
+  "description": "Finds Claude Code skills and auto-memory files you have not used in a long time and archives the ones you pick. Archives are recoverable; only an explicit purge deletes. Modelled on the Hermes agent curator.",
+  "author": {
+    "name": "Ferdinando Furci",
+    "url": "https://github.com/AlucarDWeb"
+  },
+  "repository": "https://github.com/AlucarDWeb/claude-curator",
+  "keywords": ["skills", "memory", "cleanup", "curator"]
+}

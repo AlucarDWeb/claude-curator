@@ -1,0 +1,18 @@
+{
+  "description": "Adds new transcript and history lines to the curator usage ledger when a session starts",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/skills/curator/scripts/curator.py\" ingest >/dev/null 2>&1 || true",
+            "timeout": 60,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}
