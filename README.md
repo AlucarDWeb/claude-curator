@@ -11,6 +11,8 @@ A Claude Code plugin that tells you which of your skills and memories you have s
 
 Start a new session afterwards. You need `python3` 3.9 or newer (the one macOS ships is enough) on macOS or Linux.
 
+Installs always come from the latest [release](https://github.com/AlucarDWeb/claude-curator/releases), not from whatever is on `main`. To pick up a new release, run `claude plugin marketplace update claude-curator`, then `claude plugin update curator@claude-curator`.
+
 ## Use
 
 Run `/curator:curator` in a session, or ask Claude to clean up your skills or memories.

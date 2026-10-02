@@ -10,7 +10,13 @@
     {
       "name": "curator",
       "description": "Report unused skills and stale memories, then archive the ones you pick.",
-      "source": "./",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "AlucarDWeb/claude-curator",
+        "ref": "v0.1.0",
+        "sha": "285c1ce72865ceb0446bec4f74f2e44434073cae"
+      },
       "category": "productivity"
     }
   ]
